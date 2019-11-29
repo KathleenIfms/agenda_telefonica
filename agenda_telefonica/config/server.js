@@ -13,7 +13,7 @@ app.use(expressValidator());
 
 consign()
 
-.then('config/dbConnection.js')
+.then('config/conexao_banco.js')
 
 .then('app/models')
 
